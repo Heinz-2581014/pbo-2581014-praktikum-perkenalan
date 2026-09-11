@@ -5,22 +5,24 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
         System.out.print("Masukkan nama anda: ");
-        String Masukkan_nama_anda = scanner.nextLine();
+        String nama = scanner.nextLine();
 
         System.out.print("Masukkan NIM anda: ");
-        int Masukkan_NIM_anda = scanner.nextInt();
+        int NIM = scanner.nextInt();
 
         System.out.print("Masukkan umur anda: ");
-        int Masukkan_umur_anda = scanner.nextInt();
+        int umur = scanner.nextInt();
 
         System.out.print("Masukkan tinggi anda: ");
-        double Masukkan_tinggi_anda = scanner.nextDouble();
+        double tinggi = scanner.nextDouble();
 
         scanner.nextLine();
 
         System.out.print("Masukkan asal kota anda: ");
-        String Masukkan_asal_kota_anda = scanner.nextLine();
+        String asal_kota = scanner.nextLine();
 
+        System.out.println("Halo! Nama saya " + nama + " (NIM " + NIM + "), umur " + umur + " tahun,");
+        System.out.println("tinggi " + tinggi + " cm, berasal dari " + asal_kota + "." );
 
 
 
