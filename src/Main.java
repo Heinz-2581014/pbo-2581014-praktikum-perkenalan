@@ -16,6 +16,12 @@ public class Main {
         System.out.print("Masukkan tinggi anda: ");
         double Masukkan_tinggi_anda = scanner.nextDouble();
 
+        scanner.nextLine();
+
+        System.out.print("Masukkan asal kota anda: ");
+        String Masukkan_asal_kota_anda = scanner.nextLine();
+
+
 
 
     }
